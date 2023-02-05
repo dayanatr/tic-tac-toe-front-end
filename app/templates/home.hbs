@@ -1,0 +1,65 @@
+{{page-title "Home"}}
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div>
+    <nav>
+      <div class="menu">
+        <div class="logo">
+          <a href="#">Tic Tac Toe</a>
+        </div>
+        {{!-- <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul> --}}
+      </div>
+    </nav>
+    <div class="img"></div>
+    <div class="center">
+      <div class="btns">
+        <a href="/about"><i class="fa fa-play-circle-o" style="font-size:250px;"></i></a>
+        <div class="title">Press Here To Play</div>
+      </div>
+    </div>
+    <br><br>
+    <div class="cont-sm">
+      <div id="content">
+        <section class="details txt pb-0" style="padding-top: 2px;">
+          <div class="row-md">
+            {{!-- <h1 class="txt-md ta-c">Tic Tac Toe</h1> --}}
+            <div class="col-12 play">
+              <h3>HOW TO PLAY</h3>
+              <ol>
+                <li>Choose your opponent</li>
+                <li>Press a square to place your mark</li>
+                <li>Make three in a row horizontally, vertically, or diagonally to win</li>
+                <li>Watch your opponent and block them if they get 2 in a row</li>
+                <li>Try a harder mode to keep it interesting</li>
+                <li>Turn off sounds using the top right menu</li>
+                <li>Use the top left menu to reset your scores for the current opponent</li>
+              </ol>
+            </div>
+            <div class="col-12 play">
+              <h3>HOW TO PLAY</h3>
+              <ol>
+                <li>Choose your opponent</li>
+                <li>Press a square to place your mark</li>
+                <li>Make three in a row horizontally, vertically, or diagonally to win</li>
+                <li>Watch your opponent and block them if they get 2 in a row</li>
+                <li>Try a harder mode to keep it interesting</li>
+                <li>Turn off sounds using the top right menu</li>
+                <li>Use the top left menu to reset your scores for the current opponent</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+</body>
+{{outlet}}

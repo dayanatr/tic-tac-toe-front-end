@@ -1,0 +1,26 @@
+{{page-title 'About'}}
+<body>
+  <div>
+  <h1>Tic Tac Toe</h1>
+  <br>
+  <div class="game">
+    <div class="grid-board">
+      <div id="1" class="each-grid" onclick={{action "handleClick" }}></div>
+      <div id="2" class="each-grid" onclick={{action "handleClick" }}></div>
+      <div id="3" class="each-grid" onclick={{action "handleClick" }}></div>
+      <div id="4" class="each-grid" onclick={{action "handleClick" }}></div>
+      <div id="5" class="each-grid" onclick={{action "handleClick" }}></div>
+      <div id="6" class="each-grid" onclick={{action "handleClick" }}></div>
+      <div id="7" class="each-grid" onclick={{action "handleClick" }}></div>
+      <div id="8" class="each-grid" onclick={{action "handleClick" }}></div>
+      <div id="9" class="each-grid" onclick={{action "handleClick" }}></div>
+    </div>
+  </div>
+  <br>
+  <div>
+    <p class="playerText">Player {{if this.playerTurn '2' '1'}} Turn </p>
+  </div>
+  </div>
+</body>
+
+{{outlet}}
